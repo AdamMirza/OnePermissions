@@ -26,3 +26,17 @@ C:\Users\admirza\Documents\Hackathon\OnePermissions\api\OnePermissionsApi\obj\De
 C:\Users\admirza\Documents\Hackathon\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.RazorTargetAssemblyInfo.cache
 C:\Users\admirza\Documents\Hackathon\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.dll
 C:\Users\admirza\Documents\Hackathon\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.pdb
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\bin\Debug\netcoreapp2.1\OnePermissionsApi.deps.json
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\bin\Debug\netcoreapp2.1\OnePermissionsApi.runtimeconfig.json
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\bin\Debug\netcoreapp2.1\OnePermissionsApi.runtimeconfig.dev.json
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\bin\Debug\netcoreapp2.1\OnePermissionsApi.dll
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\bin\Debug\netcoreapp2.1\OnePermissionsApi.pdb
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.csprojAssemblyReference.cache
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.csproj.CoreCompileInputs.cache
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.RazorAssemblyInfo.cache
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.RazorAssemblyInfo.cs
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.AssemblyInfoInputs.cache
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.AssemblyInfo.cs
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.RazorTargetAssemblyInfo.cache
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.dll
+C:\Users\t-neala\git\OnePermissions\api\OnePermissionsApi\obj\Debug\netcoreapp2.1\OnePermissionsApi.pdb
