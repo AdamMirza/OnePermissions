@@ -11906,11 +11906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admirza\\Documents\\Hackathon\\OnePermissions\\OnePermissionsApi\\OnePermissionsApi\\OnePermissionsApi.csproj",
+      "projectUniqueName": "C:\\Users\\admirza\\Documents\\Hackathon\\OnePermissions\\api\\OnePermissionsApi\\OnePermissionsApi.csproj",
       "projectName": "OnePermissionsApi",
-      "projectPath": "C:\\Users\\admirza\\Documents\\Hackathon\\OnePermissions\\OnePermissionsApi\\OnePermissionsApi\\OnePermissionsApi.csproj",
+      "projectPath": "C:\\Users\\admirza\\Documents\\Hackathon\\OnePermissions\\api\\OnePermissionsApi\\OnePermissionsApi.csproj",
       "packagesPath": "C:\\Users\\admirza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admirza\\Documents\\Hackathon\\OnePermissions\\OnePermissionsApi\\OnePermissionsApi\\obj\\",
+      "outputPath": "C:\\Users\\admirza\\Documents\\Hackathon\\OnePermissions\\api\\OnePermissionsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
