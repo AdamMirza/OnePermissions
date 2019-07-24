@@ -19,5 +19,8 @@ namespace OnePermissionsApi.Model
 
         [JsonProperty(PropertyName = "success")]
         public bool Success { get; set; }
+
+        [JsonProperty(PropertyName = "error_message")]
+        public string ErrorMessage { get; set; }
     }
 }
