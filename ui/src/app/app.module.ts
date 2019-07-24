@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavSidebarComponent } from './nav-sidebar/nav-sidebar.component';
+import { NavComponent } from './nav/nav.component';
+import { UserPermissionsComponent } from './user-permissions/user-permissions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavSidebarComponent
+    NavComponent,
+    UserPermissionsComponent
   ],
   imports: [
     BrowserModule,

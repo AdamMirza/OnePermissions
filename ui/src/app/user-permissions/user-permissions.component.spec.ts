@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavSidebarComponent } from './nav-sidebar.component';
+import { UserPermissionsComponent } from './user-permissions.component';
 
-describe('NavSidebarComponent', () => {
-  let component: NavSidebarComponent;
-  let fixture: ComponentFixture<NavSidebarComponent>;
+describe('UserPermissionsComponent', () => {
+  let component: UserPermissionsComponent;
+  let fixture: ComponentFixture<UserPermissionsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavSidebarComponent ]
+      declarations: [ UserPermissionsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavSidebarComponent);
+    fixture = TestBed.createComponent(UserPermissionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
