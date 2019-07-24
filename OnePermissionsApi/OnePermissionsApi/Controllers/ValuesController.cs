@@ -41,7 +41,7 @@ namespace OnePermissionsApi.Controllers
 
             return new UserPermissions()
             {
-                Alias = alias,
+                Alias = alias.ToLower(),
                 Success = true
             };
         }
