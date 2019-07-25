@@ -1,1 +1,39 @@
-<p>user-permissions works!</p>
+<div class="container" style="padding-top: 4em;">
+    <form #aliasForm="ngForm" (ngSubmit)="onSubmit(aliasForm)" novalidate>
+        <div class="form-group">
+            <input [(ngModel)]="firstname" name="alias" type="text" class="form-control" id="aliasInput" placeholder="Enter Your Alias Here" required>
+        </div>
+        <button type="submit" class="btn btn-light">Submit</button>
+    </form>
+</div>
+
+<ng-template [ngIf] = "afterFormSubmit">
+    <div class="container" id="permissions-data">
+        <ng-template [ngIf]="success" [ngIfElse]="invalidInput">
+            <div class="container" id="data-table">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Role</th>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                        <td>yas</td>
+                        <td>yasaya</td>
+                        <td>asdf</td>
+                        <td>asdf<td>
+                    </tr>
+                </table>
+            </div>
+        </ng-template>
+
+        <ng-template #invalidInput>
+            <div class="container">
+                <div>
+                    <p>AHHHHHHHHHH!!!!</p>
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</ng-template>
