@@ -16,8 +16,5 @@ namespace OnePermissionsApi.Model
 
         [JsonProperty(PropertyName = "permissions")]
         public List<Permissions> Permissions { get; set; }
-
-        [JsonProperty(PropertyName = "success")]
-        public bool Success { get; set; }
     }
 }

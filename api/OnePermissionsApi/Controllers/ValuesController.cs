@@ -21,28 +21,12 @@ namespace OnePermissionsApi.Controllers
         [HttpGet("{alias}")]
         public ActionResult<UserPermissions> Get(string alias)
         {
-            // Check valid email
-            try
-            {
-                MailAddress m = new MailAddress(alias);
-                if (m.Host.ToLower() != "microsoft.com")
-                {
-                    throw new FormatException("Not an alias");
-                }
-
-            }
-            catch (FormatException)
-            {
-                return new UserPermissions()
-                {
-                    Success = false
-                };
-            }
-
+            alias = alias.ToLower();
+            alias += "@microsoft.com";
+            
             return new UserPermissions()
             {
-                Alias = alias.ToLower(),
-                Success = true
+                Alias = alias,
             };
         }
 

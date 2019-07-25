@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/AdamMirza/Documents/Programming/OnePermissions/OnePermissionsApi/OnePermissionsApi/OnePermissionsApi.csproj": {}
+    "C:\\Users\\t-neala\\git\\OnePermissions\\api\\OnePermissionsApi\\OnePermissionsApi.csproj": {}
   },
   "projects": {
-    "/Users/AdamMirza/Documents/Programming/OnePermissions/OnePermissionsApi/OnePermissionsApi/OnePermissionsApi.csproj": {
+    "C:\\Users\\t-neala\\git\\OnePermissions\\api\\OnePermissionsApi\\OnePermissionsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/AdamMirza/Documents/Programming/OnePermissions/OnePermissionsApi/OnePermissionsApi/OnePermissionsApi.csproj",
+        "projectUniqueName": "C:\\Users\\t-neala\\git\\OnePermissions\\api\\OnePermissionsApi\\OnePermissionsApi.csproj",
         "projectName": "OnePermissionsApi",
-        "projectPath": "/Users/AdamMirza/Documents/Programming/OnePermissions/OnePermissionsApi/OnePermissionsApi/OnePermissionsApi.csproj",
-        "packagesPath": "/Users/AdamMirza/.nuget/packages/",
-        "outputPath": "/Users/AdamMirza/Documents/Programming/OnePermissions/OnePermissionsApi/OnePermissionsApi/obj/",
+        "projectPath": "C:\\Users\\t-neala\\git\\OnePermissions\\api\\OnePermissionsApi\\OnePermissionsApi.csproj",
+        "packagesPath": "C:\\Users\\t-neala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\t-neala\\git\\OnePermissions\\api\\OnePermissionsApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/AdamMirza/.config/NuGet/NuGet.Config"
+          "C:\\Users\\t-neala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +57,7 @@
               "version": "[3.0.4, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
