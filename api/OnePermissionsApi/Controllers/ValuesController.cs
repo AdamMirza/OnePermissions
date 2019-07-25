@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Mail;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using OnePermissionsApi.Model;
 
 namespace OnePermissionsApi.Controllers
@@ -19,11 +20,16 @@ namespace OnePermissionsApi.Controllers
 
         // GET api/values/5
         [HttpGet("{alias}")]
-        public ActionResult<UserPermissions> Get(string alias)
+        public ActionResult<object> Get(string alias)
         {
             alias = alias.ToLower();
             alias += "@microsoft.com";
-            
+
+            string allText = System.IO.File.ReadAllText(@".\Data\data.json");
+
+            object jsonObject = JsonConvert.DeserializeObject(allText);
+            return jsonObject;
+
             return new UserPermissions()
             {
                 Alias = alias,

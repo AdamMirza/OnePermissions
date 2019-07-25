@@ -1,19 +1,24 @@
 ﻿<Properties StartupConfiguration="{00B7BEC6-3F5D-47CC-AD53-3E27F1C20A2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnePermissionsApi/Model/Permissions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../usr/local/share/dotnet/sdk/2.1.700/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
     <Files>
-      <File FileName="OnePermissionsApi/Controllers/ValuesController.cs" Line="25" Column="10" />
-      <File FileName="OnePermissionsApi/Model/UserPermissions.cs" Line="12" Column="57" />
-      <File FileName="OnePermissionsApi/Model/Permissions.cs" Line="6" Column="30" />
+      <File FileName="OnePermissionsApi/Controllers/ValuesController.cs" Line="5" Column="10" />
+      <File FileName="OnePermissionsApi/Data/EmptyJSONFile.json" Line="43" Column="4" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/2.1.700/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="191" Column="1" />
+      <File FileName="OnePermissionsApi/Model/Permissions.cs" Line="19" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnePermissionsApi" expanded="True">
             <Node name="OnePermissionsApi" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Model" expanded="True">
-                <Node name="Permissions.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="SdkDependencies" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="ValuesController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Model" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
           </Node>

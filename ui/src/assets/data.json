@@ -1,0 +1,44 @@
+{
+	"alias": "johndoe@microsoft.com",
+	"fname" : "john",
+	"lname" : "doe",
+	"position" : "Software Engineer I",
+	"permissions" : [
+		{
+			"name" : "Azure Sec Group",
+			"type" : "Security Group",
+			"role" : "Owner",
+			"contact" : "janedoe@microsoft.com"
+		},
+		{
+			"name" : "Insane AI Platform KV",
+			"type" : "Azure Key Vault",
+			"role" : "Contributor"
+			"contact" : "janedoe@microsoft.com"
+		}, 
+		{
+			"name" : "Best ML Ever Azure Subscription",
+			"type" : "Azure Subscription",
+			"role" : "Reader",
+			"contact" : "janedoe@microsoft.com"
+		}, 
+		{
+			"name" : "Best ML Ever Azure Subscription 1",
+			"type" : "Azure Subscription",
+			"role" : "Reader",
+			"contact" : "janedoe@microsoft.com"
+		}, 
+		{
+			"name" : "Best ML Ever Azure Subscription 2",
+			"type" : "Azure Subscription",
+			"role" : "Reader",
+			"contact" : "janedoe@microsoft.com"
+		}, 
+		{
+			"name" : "Best ML Ever Azure Subscription 3",
+			"type" : "Azure Subscription",
+			"role" : "Reader",
+			"contact" : "janedoe@microsoft.com"
+		}
+	]
+}
