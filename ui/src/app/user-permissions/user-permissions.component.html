@@ -8,6 +8,17 @@
 </div>
 
 <ng-template [ngIf] = "afterFormSubmit">
+    <div class="container" id="user-card">
+        <div class="row">
+            <div class="col">
+                <img src="{{user.img_url}}"/>
+            </div>
+            <div class="col">
+                <h1>Hi, {{user.fname}}</h1>
+                <h5>{{user.position}} | {{user.alias}}</h5>
+            </div>
+        </div>
+    </div>
     <div class="container" id="permissions-data">
         <ng-template [ngIf]="success" [ngIfElse]="invalidInput">
             <div class="container" id="data-table">
