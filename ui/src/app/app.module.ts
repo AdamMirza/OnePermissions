@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { UserPermissionsComponent } from './user-permissions/user-permissions.component';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    UserPermissionsComponent
+    UserPermissionsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
