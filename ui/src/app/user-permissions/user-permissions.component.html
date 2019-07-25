@@ -18,12 +18,14 @@
                         <th>Role</th>
                         <th>Contact</th>
                     </tr>
-                    <tr>
-                        <td>yas</td>
-                        <td>yasaya</td>
-                        <td>asdf</td>
-                        <td>asdf<td>
-                    </tr>
+                    <ng-template ngFor let-item [ngForOf]="user?.permissions" let-i="index" [ngForTrackBy]="permission">
+                        <tr>
+                            <td>{{user?.permissions[i].name}}</td>
+                            <td>{{user?.permissions[i].type}}</td>
+                            <td>{{user?.permissions[i].role}}</td>
+                            <td><a href="mailto:{{user?.permissions[i].contact}}">{{user?.permissions[i].contact}}</a><td>
+                        </tr>
+                    </ng-template>
                 </table>
             </div>
         </ng-template>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -12,6 +12,16 @@ export class UserPermissionsComponent implements OnInit {
 
   success: boolean;
   afterFormSubmit: boolean = false;
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json; charset=utf-8',
+      'Access-Control-Allow-Origin': '*'
+    })
+  };
+
+  userData: UserData;
+  user: {};
+  permissions: [];
 
   constructor(private http: HttpClient) { }
 
@@ -21,8 +31,14 @@ export class UserPermissionsComponent implements OnInit {
   onSubmit(aliasForm: NgForm) {
     if (aliasForm.value.alias == "jdoe") {
       this.success = true;
-      this.http.get('https://onepermissionsapi.azurewebsites.net/api/values/jdoe').subscribe((res: Response) => {
+      let headers = new HttpHeaders({
+        'Content-Type': 'application/json; charset=utf-8'
+      });
+
+      this.http.get('https://localhost:44383/api/values/jdoe', this.httpOptions).subscribe((res) => {
         console.log(res);
+        this.user = res;
+        console.log(this.user.permissions);
       });
     } else {
       console.log(aliasForm.value.alias);
@@ -32,4 +48,16 @@ export class UserPermissionsComponent implements OnInit {
     this.afterFormSubmit = true;
   }
 
+  counter(i: number) {
+    return new Array(i);
+  }
+
+}
+
+export interface UserData {
+  alias: string;
+  fname: string;
+  lname: string;
+  position: string;
+  permissions: string[];
 }

@@ -13,7 +13,7 @@
     {
       "name": "Insane AI Platform KV",
       "type": "Azure Key Vault",
-      "role": "Contributor"
+      "role": "Contributor",
       "contact": "janedoe@microsoft.com"
     },
     {

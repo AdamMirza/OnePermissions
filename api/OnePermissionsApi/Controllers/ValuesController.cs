@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Mail;
+using System.Web.Http.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using OnePermissionsApi.Model;
@@ -19,6 +20,7 @@ namespace OnePermissionsApi.Controllers
         }
 
         // GET api/values/5
+        [EnableCors(origins: "https://localhost:4200", headers: "*", methods: "*")]
         [HttpGet("{alias}")]
         public ActionResult<object> Get(string alias)
         {
@@ -30,10 +32,10 @@ namespace OnePermissionsApi.Controllers
             object jsonObject = JsonConvert.DeserializeObject(allText);
             return jsonObject;
 
-            return new UserPermissions()
-            {
-                Alias = alias,
-            };
+            //return new UserPermissions()
+            //{
+            //    Alias = alias,
+            //};
         }
 
         //// POST api/values
