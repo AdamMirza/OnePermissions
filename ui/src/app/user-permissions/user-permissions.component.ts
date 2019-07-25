@@ -38,7 +38,6 @@ export class UserPermissionsComponent implements OnInit {
       this.http.get('https://localhost:44383/api/values/jdoe', this.httpOptions).subscribe((res) => {
         console.log(res);
         this.user = res;
-        console.log(this.user.permissions);
       });
     } else {
       console.log(aliasForm.value.alias);
