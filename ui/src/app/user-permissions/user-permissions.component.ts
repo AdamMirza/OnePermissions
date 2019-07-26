@@ -35,7 +35,7 @@ export class UserPermissionsComponent implements OnInit {
         'Content-Type': 'application/json; charset=utf-8'
       });
 
-      this.http.get('https://localhost:44383/api/values/jdoe', this.httpOptions).subscribe((res) => {
+      this.http.get('https://onepermissionsapi20190725120818.azurewebsites.net/api/values/jdoe', this.httpOptions).subscribe((res) => {
         console.log(res);
         this.user = res;
       });
